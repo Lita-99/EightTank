@@ -101,3 +101,5 @@ Todo list:
 - A major reorganisation of the code is required. Currently VehicleAxle.cpp contains the majority of the relevant code.
 - Implement proper friction calculations - the current implementation is only an approximation
 - Implement proper engine torque input/output as a drive force
+
+I also need to take a deep dive into the low level aspects of chaos physics, and understand how to make physics queries that don't require GetWorld(), to potentially allow for Async physics tick implementation, for deterministic simulation
